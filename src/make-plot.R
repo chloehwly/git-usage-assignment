@@ -16,7 +16,7 @@ g <- ggplot(
     y = "Average rainfall (mm)",
     colour = "City",
     title = "Rainfall",
-    subtitle = "Monthly average (1855--2015)") +
+    subtitle = "Monthly average (1855-2015)") +
   scale_x_continuous(
     breaks = plot_df$month_num[seq(2,12,2)],
     labels = plot_df$month[seq(2,12,2)]) +
