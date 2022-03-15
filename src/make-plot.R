@@ -23,7 +23,7 @@ g <- ggplot(
   theme_classic() +
   theme(axis.text.x = element_text(angle = -45))
 
-ggsave(filename = "out/result.png",
+ggsave(filename = "out/avg-rainfall-result.png",
        plot = g,
        height = 10.5, width = 14.8,
        units = "cm")
