@@ -13,3 +13,4 @@ Rscript src/make-plot.R
 ```
 The input data for step 1 is in `data/raw-data` and the input data for step 2 is in `data`. 
 The results are in `out`.
+Info about package versions is in `out`.
